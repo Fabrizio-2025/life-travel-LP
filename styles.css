@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.toolbar {
+    background-color: rgb(111, 184, 184);
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.toolbar-lft {
+    width: 70%;
+    margin-left: 8px;
+}
+
+.toolbar-rgt {
+    width: 30%;
+}
+
+.toolbar-rgt a{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    font-size:larger;
+    font-weight: 700;
+    color: rgb(155, 221, 193) ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.home-main{
+    width: 100%;
+    height: 797px;
+    background-color: rgb(155, 221, 193);
+}
+
+.min-main-div{
+    width: 90%;
+    height: 680px;
+    background-color: aliceblue;
+}
+
+.about-main{
+    width: 100%;
+    height: 797px;
+    background-color: rgb(228, 226, 140);
+}
+
+.service-main{
+    width: 100%;
+    height: 797px;
+    background-color: rgb(155, 221, 193);
+}
+
+.plan-container{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(28, 125, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
